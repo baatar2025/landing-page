@@ -1,0 +1,170 @@
+body{
+    margin: 0;
+}
+header{
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+.flex{
+    display: flex;
+    flex-direction: row;
+}
+.center{
+    display: flex;
+    justify-content: center;  
+}
+.flex-col{
+    display: flex;
+    flex-direction: column;
+}
+.Nav{
+    background-color: black;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.gap{
+    gap: 2%;
+}
+.font{
+    font-size: 80px;
+}
+.font1{
+    font-size: 50px;
+
+}
+.h1{
+    margin-top: 5%;
+}
+section{
+    margin: 10%;
+}
+/* section css */
+.between{
+    display: flex;
+    justify-content: space-between;
+}
+.section1width{
+    width: 40%;
+}
+.section2width{
+    width: 100%;
+    background-color: aqua;
+    height: 100%;
+}
+.textcenter{
+    align-items: center;
+}
+.border{
+    border: 2px black solid;
+    border-radius: 10px;
+}
+.padding{
+    padding: 2%;
+}
+.mb{
+    margin-bottom: 2%;
+}
+.re{
+    position: relative;
+}
+.border :hover {
+    background-color: black;
+    color: aliceblue;
+}
+
+.mt{
+    margin-top: 0;
+}
+.cartfont{
+    font-size: 35px;
+}
+.ulfont{
+    font-size: 20px;
+}
+.cartpadding{
+    padding: 1%;
+}
+.cartpadding:hover{
+    border: 2px greenyellow solid;
+    border-radius: 10%;
+}
+.cardsize{
+    width: 25%;
+    height: 35%;
+    content: center;
+}
+menu{
+    margin-bottom: 10%;
+}
+.footerh1{
+    font-size: 32px;
+    color: aliceblue;
+}
+.but{
+    background-color: olivedrab;
+    padding: 3px;
+    width: 90px;
+    height: 20px;
+    border-radius: 10px;
+    border: none;
+}
+.bg{
+    background-color: black;
+}
+.acenter{
+    align-items: center;
+}
+.footer1heig{
+    height: 200px;
+}
+.footerbg{
+    background-color:  #303030;
+    border-radius: 10px;
+}
+.white{
+    color: aliceblue;
+}
+br{
+    color: aqua;
+}
+#img{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 110%;
+    width: 50%;
+    border-radius: 10px;
+    display: none;
+}
+.imghover{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 110%;
+    width: 50%;
+    border-radius: 10px;
+    display: none;
+}
+.border:hover #img{
+    display: block;
+}
+#suh1:hover #img1{
+    display: block;
+}
+#suh2:hover #img2{
+    display: block;
+}
+#suh3:hover #img3{
+    display: block;
+}
+#suh4:hover #img4{
+    display: block;
+}
+#suh5:hover #img5{
+    display: block;
+}
+
+.width{
+    width: 100%;
+}
